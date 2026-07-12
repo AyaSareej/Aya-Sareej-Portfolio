@@ -1,6 +1,6 @@
-# Aya Phoenix Portfolio
+# My Portfolio
 
-A high-end interactive 3D portfolio for Aya Sareej, built with Vite, React, TypeScript, React Three Fiber, Drei, and GSAP ScrollTrigger.
+A high-end interactive 3D portfolio for Me, built with Vite, React, TypeScript, React Three Fiber, Drei, and GSAP ScrollTrigger.
 
 ## Design language
 
@@ -16,16 +16,3 @@ A high-end interactive 3D portfolio for Aya Sareej, built with Vite, React, Type
 npm install
 npm run dev
 ```
-
-## Production build
-
-```bash
-npm run build
-npm run preview
-```
-
-The build has been verified locally. Vite may report that the lazy-loaded 3D scene chunk is large because Three.js and Drei are intentionally isolated from the initial app shell. The initial shell stays separate from the 3D scene for faster first paint.
-
-## CV download
-
-The uploaded CV is copied to `public/Aya_Sareej_CV.pdf` and linked from the UI.
